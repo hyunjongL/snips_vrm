@@ -1,0 +1,44 @@
+{
+  "intents": {
+    "K": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "어"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "응"
+            }
+          ]
+        }
+      ]
+    },
+    "D": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "나는"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "난"
+            }
+          ]
+        }
+
+      ]
+    }
+  },
+  "entities": {
+  },
+  "language": "ko"
+}

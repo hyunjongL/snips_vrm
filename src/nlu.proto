@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+service snips_nlu {
+  rpc nlu_engine (nlu_request) returns (nlu_response) {}
+}
+
+message nlu_request {
+ string utterance = 1;
+}
+
+// The request message containing the user's name.
+message nlu_response {
+  string intent = 1;
+}
